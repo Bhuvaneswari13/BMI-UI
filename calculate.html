@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <script src="js/app.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>BMI</h1>
+   <label for="w">Enter Your Weight in kg  </label>
+    <input type="text" id="w" />
+    <br/><br/>
+<label for="h">Enter Your Height in cm</label>
+    <input type="text" id="h" />
+    <br/><br/>
+    <button onclick="calc()"><b><i>Calculate</i></b></button>
+    <h1>Your BMI is</h1>
+    <div id="bmi"></div>
+    <hr/><br/><br/>
+
+    <table align="center" id = "tab">
+      <tr>
+        <th>BMI</th>
+        <th>Weight Status</th>
+      </tr>
+      <tr>
+        <td>Below 18.5</td>
+        <td>Under weight</td>
+      </tr>
+      <tr>
+        <td>18.5 to 24.9</td>
+        <td>Healthy Weight</td>
+      </tr>
+      <tr>
+        <td>25.0 to 29.9</td>
+        <td>Over Weight</td>
+      </tr>
+      <tr>
+        <td>Above 30</td>
+        <td>Obese</td>
+      </tr>
+    </table>
+    <br/><br/>
+    <q><i>Please take care of your health to lead a happiest life</i></q>
+  </body>
+</html>

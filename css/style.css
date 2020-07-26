@@ -1,0 +1,57 @@
+body {
+    background: rgb(32,40, 51);
+    text-align: center;
+  }
+h1 {
+    color:whitesmoke;
+  }
+
+  pre{
+      color: whitesmoke;
+  }
+
+  a:link, a:visited {
+    margin: 4px 2px;
+    color: whitesmoke;
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid rgb(102, 252, 241);
+  }
+  a:hover, a:active {
+    color: rgb(102, 252, 241);
+  }
+
+  label{
+      color: lavenderblush;
+  }
+  input{
+    background: ivory; 
+  }
+  button{
+    margin: 4px 2px;
+    color: white;
+    background: none;
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid rgb(102, 252, 241);
+  }
+  div{
+    color: rgb(248, 248, 248);
+  }
+  #tab td, #tab th {
+    border: 1px solid rgb(102, 252, 241);
+    padding: 8px;
+    color: white;
+  }
+
+  #tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(102, 252, 241);;
+    color: black;
+  }
+  q{
+    color: whitesmoke;
+    size: 20px;
+  }
